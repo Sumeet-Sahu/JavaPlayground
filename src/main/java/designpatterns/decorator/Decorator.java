@@ -1,4 +1,4 @@
-package designpatterns.java8.decorator;
+package designpatterns.decorator;
 
 import java.util.function.Function;
 

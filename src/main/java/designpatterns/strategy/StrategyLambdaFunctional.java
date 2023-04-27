@@ -1,4 +1,4 @@
-package designpatterns.java8.strategy;
+package designpatterns.strategy;
 
 import java.util.List;
 import java.util.function.Predicate;

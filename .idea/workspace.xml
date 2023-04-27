@@ -4,30 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2839953-7834-4e8c-9c8a-3a1f82aef26f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDI.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/ComputeIfFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/MergeFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/PutIfAbsentFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/ReplaceRemoveFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/TreeMapWNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/WeakHashMapNullKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/RunnableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/locks/SimpleLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/system/ProcessorInformation.java" afterDir="false" />
+    <list default="true" id="c2839953-7834-4e8c-9c8a-3a1f82aef26f" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/ExecuteAroundPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FactoryPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FluentInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/IteratorUsingLambdaAndStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/sealedexample/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/sealedexample/TrafficLightRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/java8/decorator/CameraExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/CameraExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/java8/decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/decorator/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/java8/strategy/LazyLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/LazyLoading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/java8/strategy/StrategyLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/StrategyLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designpatterns/java8/strategy/StrategyLambdaFunctional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/strategy/StrategyLambdaFunctional.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +61,18 @@
     "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WeakHashMapNullKey">
-    <configuration name="ComputeIfFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.ComputeIfFun" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TrafficLightRunner">
+    <configuration name="ExecuteAroundPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.ExecuteAroundPattern" />
       <module name="JavaPlayground.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="designpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.MergeFun" />
+    <configuration name="FactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.FactoryPattern" />
       <module name="JavaPlayground.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="designpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceRemoveFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.ReplaceRemoveFun" />
+    <configuration name="IteratorUsingLambdaAndStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.IteratorUsingLambdaAndStreams" />
       <module name="JavaPlayground.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="designpatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapWNull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.TreeMapWNull" />
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.OptionalExample" />
       <module name="JavaPlayground.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeakHashMapNullKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.WeakHashMapNullKey" />
+    <configuration name="TrafficLightRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.sealedexample.TrafficLightRunner" />
       <module name="JavaPlayground.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="java8.sealedexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeakHashMapNullKey" />
-        <item itemvalue="Application.TreeMapWNull" />
-        <item itemvalue="Application.ReplaceRemoveFun" />
-        <item itemvalue="Application.MergeFun" />
-        <item itemvalue="Application.ComputeIfFun" />
+        <item itemvalue="Application.TrafficLightRunner" />
+        <item itemvalue="Application.ExecuteAroundPattern" />
+        <item itemvalue="Application.FactoryPattern" />
+        <item itemvalue="Application.IteratorUsingLambdaAndStreams" />
+        <item itemvalue="Application.OptionalExample" />
       </list>
     </recent_temporary>
   </component>
@@ -156,10 +151,21 @@
       <option name="presentableId" value="Default" />
       <updated>1681373251458</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1682406395627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682406395627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
